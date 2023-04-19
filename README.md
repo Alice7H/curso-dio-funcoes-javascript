@@ -22,13 +22,13 @@ Funções são métodos de objeto.
 
 - Objeto `arguments` é um array com todos os parâmetros passados quando a função for invocada.
 
-## Manipulação de Arrays:
+## Manipulação de Arrays
 
 - Spread: usa uma forma de lidar separadamente com elementos de um array.
 
 - Rest: combina os argumentos em um array.
 
-## Manipulação de objetos:
+## Manipulação de objetos
 
 - Object destructuring ou desestruturação de objeto, é o uso de chaves `{}` para filtrar dados que nos interessam em um objeto.
 
@@ -79,7 +79,7 @@ Caso exista apenas um parâmetro, podemos dispensar os parênteses.
 
 Ex:
 
-```
+```js
 // function
 const helloWorld = function() {
   return "Hello World";
@@ -91,7 +91,7 @@ const helloWorld = () => "Hello World";
 
 Ex:
 
-```
+```js
 const soma = (a, b) => a + b;
 const test = a => a;
 
