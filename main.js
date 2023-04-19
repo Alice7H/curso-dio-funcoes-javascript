@@ -2,9 +2,9 @@
 function findMax() {
   let max = -Infinity;
 
-  for (let i = 0; i < arguments.length; i++) {
-    if (arguments[i] > max) {
-      max = arguments[i];
+  for (const element of arguments) {
+    if (element > max) {
+      max = element;
     }
   }
   return max;
@@ -45,7 +45,7 @@ getFullName(user);  // John Doe
 
 // for...in
 function forInExample(obj) {
-  for (prop in obj) {
+  for (const prop in obj) {
     console.log(obj[prop]);
     console.log(prop);
   }
@@ -66,7 +66,7 @@ forInExample(meuObjeto);
 
 // for...of
 function logLetters(word) {
-  for (letter of word) {
+  for (const letter of word) {
     console.log(letter);
   }
 }
